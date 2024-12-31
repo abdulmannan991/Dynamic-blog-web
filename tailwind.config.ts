@@ -8,9 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        satoshi: ['Satoshi', 'sans-serif'],
+        serif: ["var(--font-playfair)", "serif"],
+        roboto: ["var(--font-roboto)", "sans-serif"],
+        helvetica: ['Helvetica', 'Arial', 'sans-serif'],
+
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lightGray: '#F0F0F0',
       },
     },
   },
