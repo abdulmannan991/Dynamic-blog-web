@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isClose, setIsClose] = useState(true);
+  const [isClose, ] = useState(true);
 
   const handleClick = () => {
     setIsOpen(false); 
@@ -49,28 +49,55 @@ function MobileMenu() {
           <li className="text-black text-[18px] font-serif  tracking-widest">NAVIGATE T0</li>
 
            </ul>
-           <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-16  ml-4  ">
+           <div className="flex flex-col justify-start items-start w-[280px] sm:ml-24 sm:w-[410px] border-[1px] mt-16  -ml-6  ">
         <hr />
       </div>
 
-      <div className="flex flex-col justify-start font-serif  items-start  mt-4 hover:text-black  -ml-52  ">
+      <div className="flex flex-col sm:text-[20px] justify-start font-serif  items-start  mt-4 hover:text-black  -ml-64  ">
        <p>Home</p>
       </div>
 
-      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4  ml-4  ">
+      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4 -ml-6 sm:ml-24 sm:w-[410px]">
         <hr />
       </div>
 
-      <div className="flex flex-col justify-between font-serif  items-start  mt-4 hover:text-black  -ml-52  ">
+      <div className="flex flex-col sm:text-[20px] justify-between font-serif  items-start   mt-4 hover:text-black  sm:-ml-[200px] -ml-52  ">
        <p>Categories</p>
       </div>
 
-      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4  ml-4  ">
+      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4 -ml-6  sm:ml-24 sm:w-[410px]">
         <hr />
       </div>
 
-      <div className="flex flex-col justify-start font-serif  items-start  mt-4 hover:text-black  -ml-52  ">
-       <p>Home</p>
+      <div className="flex flex-col sm:text-[20px] justify-start font-serif  items-start  mt-4 hover:text-black sm:-ml-[250px]  -ml-64  ">
+       <p>Blogs</p>
+      </div>
+
+      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4  -ml-6 sm:ml-24 sm:w-[410px]">
+        <hr />
+      </div>
+
+      <div className="flex flex-col sm:text-[20px] justify-start font-serif  items-start  mt-4 hover:text-black sm:-ml-[240px]  -ml-64  ">
+       <p>Styles</p>
+      </div>
+
+
+
+      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4  -ml-6  sm:ml-24 sm:w-[410px]">
+        <hr />
+      </div>
+
+      <div className="flex flex-col sm:text-[20px] justify-start font-serif  items-start  mt-4 hover:text-black sm:-ml-[240px] -ml-64  ">
+       <p>About</p>
+      </div>
+
+
+      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4  -ml-6 sm:ml-24 sm:w-[410px]">
+        <hr />
+      </div>
+
+      <div className="flex flex-col sm:text-[20px] justify-start font-serif  items-start  mt-4 hover:text-black sm:-ml-[220px]  -ml-60  ">
+       <p>Contact</p>
       </div>
 
         </div>

@@ -9,38 +9,23 @@ export default function Navbar(){
  
  <ul className="hidden md:block  mx-auto md:flex cursor-pointer justify-between tracking-widest items-center font-satoshi text-gray-400 px-4 py-6 gap-6 opacity-100 bg-white border-[1px] ">
   <div className="flex text-[20px] font-bold font-serif text-black  justify-start">
-   <h1>MANNAN'S BLOG</h1>
+   <h1>MANNAN&apos;S BLOG</h1>
   </div>
 
-  <div className="flex space-x-6 items-center justify-center flex-grow">
-  <li>Home</li>
-   <li className="relative group ">
+  <div className="flex space-x-6 font-serif tracking-widest items-center justify-center flex-grow ">
+  <li className="hover:text-black ">Home</li>
+   <li className="hover:text-black ">
      Categories
-     <ul className="absolute  hidden group-hover:block  space-y-2 bg-black text-gray-300  mt-2 py-6 px-4 border-t-[1px]">
      
-     <li className="hover:text-white">Lifestyle</li>
-       <li className="hover:text-white">Healthcare</li>
-       
-       <li className="hover:text-white">Lifestyle</li>
-       <li className="hover:text-white">Healthcare</li>
-
-       
-       <li className="hover:text-white">Lifestyle</li>
-       <li className="hover:text-white">Healthcare</li>
-     </ul>
    </li>
-   <li className="relative group">
+   <li className="hover:text-black">
      Blogs
-     <ul className="absolute  hidden group-hover:block  bg-black text-gray-300  mt-2 py-6 px-4 border-t-[1px]">
-
-       <li className="hover:text-white">Lifestyle</li>
-       <li className="hover:text-white">Healthcare</li>
-     </ul>
+    
    </li>
   
-   <li>Styles</li>
-   <li>About</li>
-   <li>Contact</li>
+   <li className="hover:text-black">Styles</li>
+   <li className="hover:text-black">About</li>
+   <li className="hover:text-black">Contact</li>
    </div>
    <div className="flex  font-bold font-serif text-black  justify-start">
    <h1>Search</h1>
@@ -68,7 +53,7 @@ export default function Navbar(){
 <MobileMenu/>
   
 <div className="flex text-[14px] sm:text-[16px] items-center  font-bold font-serif text-black  justify-center text-center">
-   <h1 className="text-center">MANNAN'S BLOG</h1>
+   <h1 className="text-center">MANNAN&apos;S BLOG</h1>
   </div>
   <svg
   xmlns="http://www.w3.org/2000/svg"
