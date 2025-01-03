@@ -84,7 +84,7 @@ const AdvancedCenteredSlider: React.FC = () => {
                 </h2>
                 <div className="flex items-center mt-4 text-sm">
                   <Image
-                    src="/slide1.jpg"
+                    src="/author.jpg"
                     alt={slide.author}
                     width={40}
                     height={40}
