@@ -1,6 +1,5 @@
 import AdvancedCenteredSlider from "./component/Slider";
 import Navbar from "./component/Navbar";
-import Link from "next/link";
 import { displayData } from "./Data/front_data";
 import Card from "./component/Cards";
 
