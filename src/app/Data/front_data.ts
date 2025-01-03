@@ -26,10 +26,11 @@ export type PropsDisplay = {
    
   
     {
-      title: "An Examination of Minimalistic Design.",
+      title: "The Web Design Trends You Need to Know",
       category: "CREATIVITY",
       date: "DECEMBER 20, 2024",
-      image: "/st.jpg",
+      image: "/web-front.png",
+
     },
   
     {
