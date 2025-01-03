@@ -1,11 +1,10 @@
-import { detailedData } from "@/app/Data/Detail_data"; // Import your data
+import { detailedData } from "@/app/Data/Detail_data"; 
 import Image from "next/image";
 import React from "react";
 
 const BlogDetail = ({ params }: { params: { blogs_name: string } }) => {
   const { blogs_name } = params;
 
-  // Handle if the blog does not exist
   if (!blogs_name) {
     return (
       <div className="flex justify-center h-screen items-center">
@@ -14,12 +13,10 @@ const BlogDetail = ({ params }: { params: { blogs_name: string } }) => {
     );
   }
 
-  // Find the blog post by matching the blog slug
   const post = detailedData.find(
     (p) => p.title.toLowerCase().replace(/ /g, "-") === blogs_name.toLowerCase()
   );
 
-  // Handle if the post is not found
   if (!post) {
     return (
       <div className="flex justify-center h-screen items-center">
@@ -44,8 +41,7 @@ const BlogDetail = ({ params }: { params: { blogs_name: string } }) => {
 
       <h2 className="text-center Heading py-10 font-bold md:text-3xl text-2xl">Add Comment</h2>
 
-      {/* Comment Section (optional) */}
-      {/* <CommentSection id={post.title}/> */}
+     
     </div>
   );
 };
