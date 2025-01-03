@@ -24,11 +24,7 @@ export default function Home() {
         ))}
       </div>
 
-      <div className="flex justify-center mt-14">
-        <button>
-          <Link href={"/blogs"} className="px-8 py-3 rounded-sm text-white text-2xl font-[500] bg-blue-900">View All Posts</Link>
-        </button>
-      </div>
+     <br /><br /><br /><br />
 </div>
 
 

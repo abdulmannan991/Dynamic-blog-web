@@ -10,7 +10,7 @@ export type PropsDisplay = {
   export const displayData: PropsDisplay[] = [
 
     {
-        title: "3 Benefits of Minimalism In Interior Design.",
+        title: "3 Benefits of Minimalism In Interior Design",
         category: "DESIGN",
         date: "JULY 1, 2021",
         image: "/lamp.jpg",
@@ -26,7 +26,7 @@ export type PropsDisplay = {
    
   
     {
-      title: "The Web Design Trends You Need to Know",
+      title: "The Web Design Trends Are",
       category: "CREATIVITY",
       date: "DECEMBER 20, 2024",
       image: "/web-front.png",
@@ -34,7 +34,7 @@ export type PropsDisplay = {
     },
   
     {
-        title: "The Pomodoro Technique Really Works.",
+        title: "The Pomodoro Technique Really is",
         category: "MANAGEMENT",
         date: "MAY 6, 2015",
         image: "/slide2.jpg",

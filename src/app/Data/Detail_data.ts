@@ -14,7 +14,7 @@ export type PropsDetailedData = {
   export const detailedData: PropsDetailedData[] = [
     
     {
-      title: "3 Benefits of Minimalism In Interior Design.",
+      title: "3 Benefits of Minimalism In Interior Design",
       category: "Design",
       date: "JUNE 15, 2018",
 
@@ -57,10 +57,10 @@ Well also explore some of the leading AI certification programs, tips for select
    },
   
     {
-      title: "An Examination of Minimalistic Design.",
+      title: "The Web Design Trends Are",
       category: "CREATIVITY",
       date: "DECEMBER 20, 2024",
-      image: "/public/web-front.png.png",
+      image: "/web-front.png.png",
 
       heading: "Trends to Watch in 2025",
       description1:
@@ -74,14 +74,14 @@ Well also explore some of the leading AI certification programs, tips for select
    
   
     {
- title: "The Pomodoro Technique Really Works.",
+ title: "The Pomodoro Technique Really is",
         category: "MANAGEMENT",
         date: "MAY 6, 2015",
         image: "/slide2.jpg",
 
       heading: "Boost Your Productivity with Focused Work",
       description1:
-        `The Pomodoro Technique is a time management method that involves working in short, focused intervals called "Pomodoros," typically 25 minutes long, followed by a short break. This technique is designed to enhance concentration and maintain mental clarity by breaking tasks into manageable segments. By using a timer to track work and rest periods, you can prevent burnout and stay engaged throughout the day. Whether you’re tackling a big project or working through daily tasks, the Pomodoro Technique helps you maintain momentum and stay productive without feeling overwhelmed.`,
+        `The Pomodoro Technique is a time management method that involves working in short, focused intervals called "Pomodoros," typically 25 minutes long, followed by a short break. This technique is designed to enhance concentration and maintain mental clarity by breaking tasks into manageable segments. By using a timer to track work and rest periods, you can prevent burnout and stay engaged throughout the day. Whether youre tackling a big project or working through daily tasks, the Pomodoro Technique helps you maintain momentum and stay productive without feeling overwhelmed.`,
       description2:
         ` One of the primary benefits of the Pomodoro Technique is that it helps overcome procrastination by setting clear, achievable goals within each Pomodoro interval. The method encourages you to focus on one task at a time, reducing distractions and increasing your efficiency. By taking regular breaks, you can refresh your mind and avoid the fatigue that comes with long, continuous work. Ideal for both personal and professional tasks, the Pomodoro Technique fosters a sense of accomplishment as you check off tasks and make steady progress.`,
       author: "Abdul Mannan",
