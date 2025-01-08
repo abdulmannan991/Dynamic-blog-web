@@ -22,14 +22,14 @@ const AdvancedCenteredSlider: React.FC = () => {
       image: "/slide2.jpg",
       category: "Management",
       title: "The Pomodoro Technique really works.",
-      author: "Jane Doe",
+      author: "Jonathan Smith",
       date: "August 15, 2021",
     },
     {
       image: "/slide3.jpg",
       category: "Lifestyle",
       title: "The difference between Classics,Vintage and Antique Cars.",
-      author: "Michael Brown",
+      author: "Jonathan Smith",
       date: "December 10, 2020",
     },
   ];

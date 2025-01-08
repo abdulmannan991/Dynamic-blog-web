@@ -37,7 +37,7 @@ return (
         <p className="text-sm md:text-base ">{post.author}</p>
       </div>
 
-      <p className="text-2xl tracking-widest leading-10 mb-10">{post.description1}</p>
+      <p className="text-2xl text-[#4c4b4b] tracking-widest leading-10 mb-10">{post.description1}</p>
       <p className="text-lg tracking-wide text-[#525151] leading-8">{post.description2}</p>
 
 

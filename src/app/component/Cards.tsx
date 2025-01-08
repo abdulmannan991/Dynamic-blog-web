@@ -12,8 +12,8 @@ const Card = ({title, category, date, image}:PropsDisplay) => {
         </Link>
       </div>
       <div className="bg-white p-5">
-        <h2 className="text-center font-[600] tracking-widest text-blue-800 mb-4">{category}</h2>
-        <h3 className="Heading md:text-4xl  text-2xl font-[500] text-center">{title}</h3>
+        <h2 className="text-center font-[600]  tracking-widest text-blue-800 mb-4">{category}</h2>
+        <h3 className="Heading md:text-4xl text-black text-2xl font-[500] text-center">{title}</h3>
         
         <p className="text-center text-sm tracking-widest mt-10 mb-5 text-black/60">{date}</p>
         
