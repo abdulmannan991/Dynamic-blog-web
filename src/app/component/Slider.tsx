@@ -12,24 +12,24 @@ import Image from "next/image";
 const AdvancedCenteredSlider: React.FC = () => {
   const slides = [
     {
-      image: "/slide1.jpg",
-      category: "Music",
-      title: "What Your Music Preference Says About You and Your Personality.",
-      author: "Jonathan Smith",
+      image: "/main-pg.webp",
+      category: "Work",
+      title: "Workspace Design Trends and Ideas.",
+      author: "Abdul Mannan",
       date: "June 02, 2018",
     },
     {
       image: "/slide2.jpg",
       category: "Management",
       title: "The Pomodoro Technique really works.",
-      author: "Jonathan Smith",
+      author: "Abdul Mannan",
       date: "August 15, 2021",
     },
     {
       image: "/slide3.jpg",
       category: "Lifestyle",
       title: "The difference between Classics,Vintage and Antique Cars.",
-      author: "Jonathan Smith",
+      author: "Abdul Mannan",
       date: "December 10, 2020",
     },
   ];
@@ -84,7 +84,7 @@ const AdvancedCenteredSlider: React.FC = () => {
                 </h2>
                 <div className="flex items-center mt-4 text-sm">
                   <Image
-                    src="/author.jpg"
+                    src="/mee.jpg"
                     alt={slide.author}
                     width={40}
                     height={40}
