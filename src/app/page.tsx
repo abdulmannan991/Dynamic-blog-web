@@ -4,6 +4,7 @@ import { displayData } from "./Data/front_data";
 import Card from "./component/Cards";
 
 export default function Home() {
+  
   return (
   <div >
     <Navbar/>
