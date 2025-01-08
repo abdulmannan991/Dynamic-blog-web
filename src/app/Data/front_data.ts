@@ -7,7 +7,7 @@ export type PropsDisplay = {
     image: string,
   };
   
-  export const displayData: PropsDisplay[] = [
+  export const frontData: PropsDisplay[] = [
 
     {
         title: "3 Benefits of Minimalism In Interior Design",

@@ -1,5 +1,5 @@
 import React from 'react'
-import { displayData } from '../Data/front_data'
+import { frontData } from '../Data/front_data'
 import Card from '../component/Cards'
 
 const Blog = () => {
@@ -9,7 +9,7 @@ const Blog = () => {
         Our Latest Blogs
       </h1>
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mx-auto px-4">
-        {displayData.map((data, index) => (
+        {frontData.map((data, index) => (
           <Card
             key={index}
             image={data.image}
