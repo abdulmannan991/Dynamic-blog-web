@@ -1,6 +1,6 @@
 import AdvancedCenteredSlider from "./component/Slider";
 import Navbar from "./component/Navbar";
-import { displayData } from "./Data/front_data";
+import {  frontData } from "./Data/front_data";
 import Card from "./component/Cards";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
     <h1 className="text-3xl font-serif font-bold">Latest Blogs </h1>
   </div>
   <div className="mt-20 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mx-auto px-4">
-        {displayData.map((data, index) => (
+        {frontData.map((data, index) => (
           <Card
             key={index}
             image={data.image}
