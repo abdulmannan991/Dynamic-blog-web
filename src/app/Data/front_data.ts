@@ -26,7 +26,7 @@ export type PropsDisplay = {
    
   
     {
-      title: "The Web Design Trends Are",
+      title: "The Web Design Trends Are...",
       category: "CREATIVITY",
       date: "DECEMBER 20, 2024",
       image: "/web-front.png",
