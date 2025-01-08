@@ -1,6 +1,6 @@
+import CommentSection from "@/app/component/Comments";
 import { detailedData } from "@/app/Data/Detail_data"; 
 import Image from "next/image";
-import React from "react";
 
 const BlogDetail = ({ params }: { params: { blogs_name: string } }) => {
   const { blogs_name } = params;
@@ -25,8 +25,9 @@ const BlogDetail = ({ params }: { params: { blogs_name: string } }) => {
     );
   }
 
-  return (
-    <div className="max-w-[1000px] mx-auto md:py-24 py-12">
+    
+return (
+    <div className="px-2 max-w-[1000px] mx-auto md:py-24 py-12">
       <div className="w-full mb-10">
         <Image src={post.image2} alt={post.title} height={2000} width={2000} />
       </div>
@@ -39,11 +40,12 @@ const BlogDetail = ({ params }: { params: { blogs_name: string } }) => {
       <p className="text-2xl tracking-widest leading-10 mb-10">{post.description1}</p>
       <p className="text-lg tracking-wide text-[#525151] leading-8">{post.description2}</p>
 
-      <h2 className="text-center Heading py-10 font-bold md:text-3xl text-2xl">Add Comment</h2>
 
-     
+         <CommentSection />
     </div>
   );
 };
+
+
 
 export default BlogDetail;
