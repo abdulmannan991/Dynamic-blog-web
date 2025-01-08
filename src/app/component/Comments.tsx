@@ -35,7 +35,7 @@ export default function CommentSection(){
 <div className="flex justify-center mt-4 h-auto md:w-[550px] lg:w-[750px] sm:w-[350px] w-[250px] rounded-md bg-slate-50 mx-auto">
         <ul className="list-none">
           {saveText.map((comment, index) => (
-            <li key={index} className="mb-2 text-center text-gray-700">
+            <li key={index} className="mb-2 text-center text-black">
               {comment}
               <li className="w-[250px] sm:w-[350px] md:w-[550px] lg:w-[750px]  border-[1px]">
                 <hr />
