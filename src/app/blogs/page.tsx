@@ -8,6 +8,7 @@ const Blog = () => {
       <h1 className="md:text-5xl text-4xl font-bold text-center Heading mb-20">
         Our Latest Blogs
       </h1>
+      
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mx-auto px-4">
         {frontData.map((data, index) => (
           <Card

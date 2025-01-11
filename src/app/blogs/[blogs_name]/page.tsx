@@ -28,6 +28,7 @@ const BlogDetail = ({ params }: { params: { blogs_name: string } }) => {
     
 return (
     <div className="px-2 max-w-[1000px] mx-auto md:py-24 py-12">
+      
       <div className="w-full mb-10">
         <Image src={post.image2} alt={post.title} height={2000} width={2000} />
       </div>

@@ -57,7 +57,7 @@ Well also explore some of the leading AI certification programs, tips for select
    },
   
     {
-      title: "The Web Design Trends Are",
+      title: "The Website Design Trends Are",
       category: "CREATIVITY",
       date: "DECEMBER 20, 2024",
       image: "/web-front.png.png",
