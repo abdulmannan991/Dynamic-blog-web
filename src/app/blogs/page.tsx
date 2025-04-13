@@ -5,7 +5,7 @@ import Card from '../component/Cards'
 const Blog = () => {
   return (
     <div className="md:py-24 py-12">
-      <h1 className="md:text-5xl text-4xl font-bold text-center Heading mb-20">
+      <h1 className=" md:text-5xl text-4xl font-bold text-center Heading mb-20">
         Our Latest Blogs
       </h1>
       
@@ -15,7 +15,6 @@ const Blog = () => {
             key={index}
             image={data.image}
             title={data.title}
-            category={data.category}
             date={data.date}/>
         ))}
       </div>

@@ -50,7 +50,7 @@ export default function Footer() {
                   href=""
                   className="text-teal-400 hover:underline"
                 >
-                  mannan@blog.com
+                  ENERGRAIN@blog.com
                 </a>
               </li>
               <li className="text-sm">
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 font-satoshi pt-4 text-center">
-          <p className="text-sm">© 2025 Mannan&apos;s Blog . All Rights Reserved.</p>
+          <p className="text-sm">© 2025 ENERGRAIN . All Rights Reserved.</p>
         </div>
       </div>
     </footer>

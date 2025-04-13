@@ -2,7 +2,6 @@
 
 export type PropsDisplay = {
     title: string,
-    category: string,
     date: string,
     image: string,
   };
@@ -10,14 +9,12 @@ export type PropsDisplay = {
   export const frontData: PropsDisplay[] = [
 
     {
-        title: "3 Benefits of Minimalism In Interior Design",
-        category: "DESIGN",
-        date: "JULY 1, 2021",
-        image: "/lamp.jpg",
+        title: "Organic Almond Flour",
+        date: "April 2025",
+        image: "/almond.jpg",
       },
     {
-      title: " The Power of Artificial Intelligence ",
-      category: "Artificial intelligence",
+      title: " Coconut Flour ",
       date: "JUNE 14, 2018",
       image: "/ai.avif",
     },
@@ -26,18 +23,17 @@ export type PropsDisplay = {
    
   
     {
-      title: "The Website Design Trends Are",
-      category: "CREATIVITY",
+      title: "Quinoa Flour",
       date: "DECEMBER 20, 2024",
       image: "/web-front.png",
 
     },
   
     {
-        title: "The Pomodoro Technique Really is",
-        category: "MANAGEMENT",
+        title: "Chickpea Flour",
         date: "MAY 6, 2015",
-        image: "/slide2.jpg",
+        image: "/chipkea.jpg",
+
       },
     
   ]

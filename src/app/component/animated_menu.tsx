@@ -61,31 +61,6 @@ function MobileMenu() {
         <hr />
       </div>
 
-      <div className="flex flex-col sm:text-[20px] justify-between font-serif  items-start   mt-4 hover:text-black  sm:-ml-[200px] -ml-52  ">
-       <p>Categories</p>
-      </div>
-
-      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4 -ml-6  sm:ml-24 sm:w-[410px]">
-        <hr />
-      </div>
-
-      <div className="flex flex-col sm:text-[20px] justify-start font-serif  items-start  mt-4 hover:text-black sm:-ml-[250px]  -ml-64  ">
-       <p>Blogs</p>
-      </div>
-
-      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4  -ml-6 sm:ml-24 sm:w-[410px]">
-        <hr />
-      </div>
-
-      <div className="flex flex-col sm:text-[20px] justify-start font-serif  items-start  mt-4 hover:text-black sm:-ml-[240px]  -ml-64  ">
-       <p>Styles</p>
-      </div>
-
-
-
-      <div className="flex flex-col justify-start items-start w-[280px] border-[1px] mt-4  -ml-6  sm:ml-24 sm:w-[410px]">
-        <hr />
-      </div>
 
       <div className="flex flex-col sm:text-[20px] justify-start font-serif  items-start  mt-4 hover:text-black sm:-ml-[240px] -ml-64  ">
        <p>About</p>
